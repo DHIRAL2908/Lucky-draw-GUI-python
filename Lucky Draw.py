@@ -16,7 +16,7 @@ texts = tkinter.Text(r, width=15, height=1, bg='black', fg='violet red', font=fo
 but = tkinter.Button(r, bg='thistle1', fg='deep pink', text="Draw", command = start)
 
 r.title('Lucky Draw')
-r.overrideredirect(1)
+#r.overrideredirect(1)
 
 texts.pack()
 but.pack()
